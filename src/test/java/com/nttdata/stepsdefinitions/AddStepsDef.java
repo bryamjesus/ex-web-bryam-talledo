@@ -21,7 +21,7 @@ public class AddStepsDef {
 
     @Before(order = 0)
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "E:\\ESTUDIO\\CURSOS\\NTTDATA\\kk\\ex-web-bryam-talledo\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\ESTUDIO\\CURSOS\\NTTDATA\\Automatizacion\\ex-web-bryam-talledo\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
